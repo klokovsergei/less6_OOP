@@ -1,9 +1,9 @@
 package less6_homework;
 
+import less6_homework.view.View;
+
 public class Main{
     public static void main(String[] args){
-        User user = new User("Bob");
-        user.report();
-        user.save();
+        View.start();
     }
 }

@@ -1,4 +1,6 @@
-package less6_homework;
+package less6_homework.service;
+
+import less6_homework.model.User;
 
 public class Persister{
     private final User user;
